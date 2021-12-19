@@ -1,0 +1,8 @@
+
+test.py
+.idea/*
+.ipynb_checkpoints/*
+*.pyc
+install_from_local_repos.bat
+venv/*
+temp.py

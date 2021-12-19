@@ -1,0 +1,13 @@
+pandas==1.1.5
+
+jupyter==1.0.0
+ipywidgets==7.6.3
+qgrid==1.3.1
+voila==0.3.0
+ipyvuetify==1.6.2
+voila-vuetify==0.5.1
+voila-material==0.4.0
+
+git+https://github.com/GSK-Biostatistics/neointerface.git
+
+pytest==6.2.5

@@ -1,0 +1,9 @@
+pandas==1.1.5
+
+jupyter==1.0.0
+ipywidgets==7.6.3
+voila==0.2.9
+ipyvuetify==1.6.2
+voila-vuetify==0.5.1
+voila-material==0.4.0
+qgrid==1.3.1
