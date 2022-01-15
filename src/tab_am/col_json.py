@@ -71,7 +71,8 @@ class ColJson(v.Col):
 
     def on_btn_file_upload_clicked(self, widget, event, data):
         for key, item in self.file_upload.value.items():
-            content = item['content'].decode('utf-8')
+            content = item['content'].decode('utf-8').replace("\n\r", "\n")
+            content = ''.join(list(s for s in content if s.isprintable() or s == "\n"))
             file_ = key.split(".")
             self.load_content(content=content, filename=key)
 
